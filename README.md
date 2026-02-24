@@ -6,6 +6,16 @@
 Insurance companies lose a lot of money due to fraudulent claims.  
 The goal of this project is to build a machine learning model that can detect whether an insurance claim is fraudulent or genuine based on given features.
 
+## Description
+This project detects fraudulent insurance claims using machine learning models.
+
+## Prerequisites
+- Basic knowledge of Python  
+- Understanding of machine learning concepts  
+- Python 3.x installed  
+- Jupyter Notebook / VS Code  
+- Required libraries: pandas, numpy, scikit-learn, matplotlib  
+
 ## 🎯 Objectives
 - Understand the problem of insurance fraud detection  
 - Perform data preprocessing and cleaning  
