@@ -1,1 +1,20 @@
+## Activity 1: Collect the Dataset:
+
+## ✅ Activity 1.1: Importing the Libraries
+Description:
+To perform insurance fraud detection using machine learning, we need to import
+essential Python libraries for data handling, visualization, and model building. 
+Libraries such as NumPy and Pandas are used for numerical computation and data
+manipulation. Matplotlib and Seaborn are used for data visualization. Scikit-learn 
+is used for data preprocessing, model training, and evaluation.
+
+## ✅ Activity 1.2: Read the Dataset
+Description (you can paste this):
+The dataset is loaded using Pandas. The dataset may be in CSV, Excel, or JSON format. 
+After loading the dataset, we check the basic structure such as number of rows and
+columns,column names, and data types. We also check for missing values using 
+isnull().sum() toensure data quality before further processing. 
+
+## Activity 2: Data Preparation:
+
 
