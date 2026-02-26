@@ -1,1 +1,111 @@
+## ✅ Activity 1.1: Business Problem: Insurance Fraud Detection Using Machine Learning
+
+Insurance companies face significant financial losses due to fraudulent claims. A large number 
+of claims are submitted every day, and manually verifying each claim is time-consuming, costly, 
+and prone to human error. As a result, many fraudulent claims go undetected, while some genuine
+claims may be delayed or wrongly flagged.
+The business problem is to develop a machine learning–based system that can automatically identify
+and classify insurance claims as fraudulent or genuine based on historical claim data and relevant
+parameters (such as claimant details, policy information, claim amount, claim history, type of damage, etc.).
+
+This system will help insurance companies:
+Detect fraud early
+Reduce financial losses
+Speed up claim processing
+Minimize manual investigation effort
+Improve overall customer trust and operational efficiency
+✨ One-line version (if they ask for a short problem statement):
+To build a machine learning model that predicts whether an insurance claim is fraudulent or
+genuine to reduce losses and improve claim processing efficiency.
+
+## ✅ Activity 1.2: Business Requirements
+
+🎯 Objective
+To build an intelligent system that can automatically detect and classify insurance claims as
+Fraudulent or Genuine using machine learning techniques, helping insurance companies reduce 
+losses and improve claim processing efficiency.
+
+📌 Functional Requirements
+The system should be able to:
+Accept insurance claim data (policy details, claim amount, claim type, claimant history, etc.).
+Preprocess and clean the input data (handle missing values, encoding, normalization).
+Analyze historical claim data to learn fraud patterns.
+Predict whether a new insurance claim is Fraudulent or Legitimate.
+Display prediction results clearly to the user (e.g., Fraud / Not Fraud).
+Allow authorized users (admin/insurance officer) to view results and model performance.
+Store predictions and claim records for future reference and auditing.
+
+⚙️ Non-Functional Requirements
+Accuracy – The model should achieve good prediction accuracy and low false positives.
+Performance – The system should give predictions in real-time or near real-time.
+Scalability – Should handle a large number of claims.
+Security – Claimant data must be protected and access should be restricted.
+Reliability – The system should work consistently without frequent failures.
+Usability – The interface should be simple and user-friendly.
+
+📊 Data Requirements
+Claim ID
+Policy ID
+Claim amount
+Claim type
+Date of claim
+Claimant history
+Number of previous claims
+Accident/damage details
+Label (Fraud / Not Fraud)
+
+🚧 Constraints
+Availability of quality historical data
+Imbalanced dataset (fraud cases are fewer than genuine ones)
+Legal and privacy regulations
+Time and resource limitations
+
+📈 Success Criteria
+Improved fraud detection rate
+Reduction in manual investigation workload
+Faster claim processing time
+Lower financial losses due to fraud
+
+## ✅ Activity 1.3: Literature Survey (Insurance Fraud Detection Using ML)
+Several researchers and industry practitioners have explored the use of Machine Learning (ML)
+techniques to detect insurance fraud. Traditional rule-based systems were widely used earlier,
+but they fail to adapt to new fraud patterns and often produce a high number of false positives.
+Recent studies show that supervised learning algorithms such as Logistic Regression, Decision 
+Trees, Random Forest, Support Vector Machines (SVM), and Gradient Boosting are effective in 
+identifying fraudulent insurance claims. Among these, ensemble methods like Random Forest and
+XGBoost provide higher accuracy and better generalization because they combine multiple decision models.
+Researchers have also highlighted the challenge of imbalanced datasets, where fraudulent claims
+are much fewer compared to genuine ones. Techniques like SMOTE (Synthetic Minority Over-sampling 
+Technique), cost-sensitive learning, and anomaly detection methods are used to address this issue.
+In addition, deep learning approaches such as Artificial Neural Networks (ANNs) are explored for
+complex patterns in large-scale insurance datasets. Feature engineering and data preprocessing play
+a crucial role in improving model performance. Evaluation metrics such as Precision, Recall, F1-score, 
+and ROC-AUC are preferred over simple accuracy due to the imbalance in fraud data.
+Overall, the literature suggests that machine learning-based fraud detection systems significantly
+improve detection rates, reduce manual effort, and adapt better to evolving fraud strategies compared to traditional methods.
+
+## ✅ Activity 1.4: Social or Business Impact
+📌 Business Impact
+Implementing an insurance fraud detection system using machine learning provides the following benefits:
+Reduces financial losses caused by fraudulent claims
+Speeds up claim processing and settlement
+Minimizes manual investigation workload
+Improves operational efficiency of insurance companies
+Enhances customer trust by ensuring fair claim handling
+Helps insurance companies take data-driven decisions
+
+🌍 Social Impact
+Prevents misuse of insurance services
+Promotes ethical behavior among policyholders
+Reduces premium burden on honest customers
+Improves transparency in claim processing
+Builds trust in insurance systems
+Supports fair and timely compensation for genuine claimants
+
+🧠 Bonus: Problem Objectives (You can add this to your report)
+To analyze historical insurance claim data
+To build and train machine learning models for fraud detection
+To evaluate model performance using appropriate metrics
+To deploy a simple interface for fraud prediction
+To reduce false positives and false negatives
 
