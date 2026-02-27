@@ -30,6 +30,8 @@ Categorical → most frequent value (mode)
 Why it matters:
 Missing data can break training or reduce model accuracy.
 
+Result Link- https://github.com/Tanvi7T/insurance-fraud-detection-ml/blob/main/Screenshot%202026-02-27%20103522.png
+
 ## ✅ Activity 2.2: Handling Outliers
 What it means:
 Outliers are extreme values (e.g., a transaction of ₹10,00,000 when most are ₹100–₹5,000).
