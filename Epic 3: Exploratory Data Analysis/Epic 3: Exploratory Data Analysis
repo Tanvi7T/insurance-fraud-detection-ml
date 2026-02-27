@@ -1,14 +1,4 @@
-## Epic 3: Exploratory Data Analysis (EDA)
-
-Objective:
-The objective of this epic is to systematically explore and understand the dataset
-to identify patterns, relationships, anomalies, and potential predictors of
-insurance fraud. This step ensures informed feature engineering and model selection
-in subsequent phases.
-
-Scope of Work:
-
-1. Univariate Analysis
+## 1. Univariate Analysis
 Purpose: Understand individual feature distributions and detect data quality issues.
 Deliverables:
 Distribution of target variable (Fraud vs Non-Fraud)
