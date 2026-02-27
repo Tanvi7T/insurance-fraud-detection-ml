@@ -9,12 +9,42 @@ manipulation. Matplotlib and Seaborn are used for data visualization. Scikit-lea
 is used for data preprocessing, model training, and evaluation.
 
 ## ✅ Activity 1.2: Read the Dataset
-Description (you can paste this):
+Description:
 The dataset is loaded using Pandas. The dataset may be in CSV, Excel, or JSON format. 
 After loading the dataset, we check the basic structure such as number of rows and
 columns,column names, and data types. We also check for missing values using 
 isnull().sum() toensure data quality before further processing. 
 
 ## Activity 2: Data Preparation:
+
+## ✅ Activity 2.1: Handling Missing Values
+What it means:
+Some rows/columns in your dataset may have empty or null values.
+ML models can’t learn properly from missing data, so you need to fix that.
+Common ways to handle missing values:
+Delete rows – if very few rows are missing values
+Delete columns – if a column has too many missing values
+Fill (Impute) values
+Numerical → mean / median
+Categorical → most frequent value (mode)
+Why it matters:
+Missing data can break training or reduce model accuracy.
+
+## ✅ Activity 2.2: Handling Outliers
+What it means:
+Outliers are extreme values (e.g., a transaction of ₹10,00,000 when most are ₹100–₹5,000).
+In fraud detection, outliers might be real fraud cases, so be careful!
+Ways to handle outliers:
+Detect outliers using:
+IQR (Interquartile Range)
+Z-score
+Options after detection:
+Remove them (if they’re errors)
+Cap them (limit extreme values)
+Keep them (if they represent fraud patterns)
+Why it matters:
+Outliers can:
+Distort model learning
+Or actually be important fraud signals (so don’t blindly remove them!)
 
 
