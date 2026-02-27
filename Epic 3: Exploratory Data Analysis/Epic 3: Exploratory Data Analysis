@@ -1,1 +1,71 @@
+## Epic 3: Exploratory Data Analysis (EDA)
 
+Objective:
+The objective of this epic is to systematically explore and understand the dataset
+to identify patterns, relationships, anomalies, and potential predictors of
+insurance fraud. This step ensures informed feature engineering and model selection
+in subsequent phases.
+
+Scope of Work:
+
+1. Univariate Analysis
+Purpose: Understand individual feature distributions and detect data quality issues.
+Deliverables:
+Distribution of target variable (Fraud vs Non-Fraud)
+Descriptive statistics for numerical features
+Frequency distributions for categorical features
+Identification of skewed variables and class imbalance
+
+2. Bivariate & Multivariate Analysis
+Purpose: Analyze relationships between features and the target variable.
+Deliverables:
+Correlation matrix / heatmap for numerical variables
+Analysis of key relationships (e.g., claim amount vs fraud, policy type vs fraud)
+Identification of potentially informative predictors
+Visual comparisons across classes (Fraud vs Non-Fraud)
+
+3. Visual Analysis
+Purpose: Support insights using appropriate visualizations.
+Deliverables:
+Histograms and box plots for numerical features
+Count plots for categorical features
+Identification of outliers and unusual patterns
+Visual evidence of feature relevance
+
+4. Handling Categorical Variables
+Purpose: Prepare categorical features for modeling.
+Deliverables:
+Identification of nominal and ordinal features
+Encoding strategy (One-Hot Encoding / Label Encoding as appropriate)
+Transformed dataset with encoded features
+Documentation of encoding decisions
+
+5. Feature Scaling
+Purpose: Normalize numerical features to ensure stable model performance.
+Deliverables:
+Selection of scaling method (StandardScaler / MinMaxScaler)
+Comparison of feature distributions before and after scaling
+Scaled dataset for model input
+
+6. Insights & Recommendations
+Purpose: Summarize findings to guide model building.
+Deliverables:
+Key patterns and trends observed
+Features showing strong association with fraud
+Data issues identified (outliers, imbalance, skewness)
+Recommendations for feature selection and model strategy
+
+Tools & Technologies
+Python
+Pandas, NumPy
+Matplotlib, Seaborn
+Jupyter Notebook
+Artifacts
+eda.ipynb – Complete exploratory analysis notebook
+eda_insights.md – Summary of findings and recommendations
+processed_data.csv – Dataset after encoding and scaling
+plots/ – Visualizations used for analysis
+
+Outcome
+A comprehensive understanding of the dataset, with validated features, 
+documented insights.
