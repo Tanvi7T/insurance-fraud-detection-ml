@@ -1,1 +1,126 @@
+## 1️⃣ Decision Tree Model
+Theory:
+A Decision Tree is a supervised machine learning algorithm used for 
+classification and regression. It works by splitting the dataset 
+into smaller subsets based on feature values, forming a tree-like
+structure of decisions. Each internal node represents a condition on
+a feature, branches represent outcomes of the condition, and leaf
+nodes represent the final class (fraud / non-fraud).
+## Why used in fraud detection:
+Easy to interpret
+Handles both numerical and categorical data
+Identifies important fraud indicators
+Pros:
+✔ Simple to understand
+✔ Handles non-linear relationships
+✔ No feature scaling required
+Cons:
+✘ Can overfit
+✘ Sensitive to noisy data
 
+## 2️⃣ Random Forest Model
+Theory:
+Random Forest is an ensemble learning method that builds multiple 
+decision trees and combines their outputs to improve prediction 
+accuracy and reduce overfitting. Each tree is trained on a 
+random subset of the data and features.
+# Why used in fraud detection:
+High accuracy
+Handles large datasets
+Reduces overfitting
+Pros:
+✔ More stable than single trees
+✔ Good performance on imbalanced data
+✔ Handles missing values
+Cons:
+✘ Less interpretable
+✘ More computation needed
+
+## 3️⃣ K-Nearest Neighbors (KNN)
+Theory:
+KNN is an instance-based learning algorithm that classifies a new 
+data point based on the majority class of its ‘k’ nearest
+neighbors in the feature space.
+## Why used in fraud detection:
+Useful when fraud patterns are clustered
+Simple logic
+Pros:
+✔ Easy to implement
+✔ No training phase
+✔ Works well with small datasets
+Cons:
+✘ Slow for large datasets
+✘ Sensitive to feature scaling
+✘ High memory usage
+
+## 4️⃣ Logistic Regression
+Theory:
+Logistic Regression is a supervised classification algorithm that 
+predicts the probability of a binary outcome (fraud or not fraud)
+using the sigmoid function. It models the relationship between 
+input features and the probability of fraud.
+## Why used in fraud detection:
+Interpretable model
+Fast training
+Baseline model for classification
+Pros:
+✔ Simple and efficient
+✔ Works well with linearly separable data
+✔ Provides probability outputs
+Cons:
+✘ Poor with complex non-linear patterns
+✘ Needs feature scaling
+
+## 5️⃣ Naive Bayes
+Theory:
+Naive Bayes is a probabilistic classifier based on Bayes’ Theorem. 
+It assumes independence between features, which simplifies 
+calculations and allows fast prediction.
+## Why used in fraud detection:
+Performs well with large datasets
+Fast training and prediction
+Pros:
+✔ Works well with high-dimensional data
+✔ Very fast
+✔ Requires less training data
+Cons:
+✘ Assumption of independence is unrealistic
+✘ Lower accuracy on complex data
+
+## 6️⃣ Support Vector Machine (SVM)
+Theory:
+SVM is a supervised learning algorithm that finds the optimal
+hyperplane to separate classes with maximum margin. It can
+handle non-linear classification using kernel functions.
+## Why used in fraud detection:
+Effective in high-dimensional spaces
+Works well with complex boundaries
+Pros:
+✔ Robust to overfitting
+✔ High accuracy
+✔ Effective for small-to-medium datasets
+Cons:
+✘ Slow for large datasets
+✘ Hard to tune
+✘ Needs feature scaling
+
+## 7️⃣ Model Evaluation (Testing the Model)
+Theory:
+Model evaluation measures how well a trained model performs on 
+unseen data. In fraud detection, accuracy alone is not enough
+due to class imbalance.
+Common Metrics:
+Accuracy
+Precision
+Recall
+F1-score
+Confusion Matrix
+ROC-AUC
+## Why important:
+Fraud cases are rare, so recall and precision are more meaningful than accuracy.
+Handling Class Imbalance:
+Since fraud data is imbalanced, techniques like:
+SMOTE (oversampling)
+Class weights
+Undersampling
+are used to improve fraud detection performance.
