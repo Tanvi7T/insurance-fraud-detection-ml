@@ -1,0 +1,26 @@
+## Description 
+Performance Testing is used to evaluate how well different machine learning
+models perform on unseen (test) data. In this epic, the trained models such
+as Decision Tree, Random Forest, KNN, Logistic Regression, Naive Bayes, and
+SVM are tested using evaluation metrics like Accuracy, Precision, Recall,
+and F1-score. These metrics help in understanding how correctly the model
+predicts fraudulent and non-fraudulent insurance claims, especially in the
+presence of class imbalance.
+
+## Hyperparameter Tuning
+It is the process of improving model performance by adjusting important
+model parameters such as:
+max_depth, min_samples_split in Decision Tree
+n_estimators, max_depth in Random Forest
+n_neighbors in KNN
+C, kernel in SVM
+The model performance before and after hyperparameter tuning is compared
+to observe improvements in accuracy and F1-score. This comparison helps
+in selecting the best-performing model for deployment.
+
+## 📌 Short Version
+Performance testing is done to evaluate multiple machine learning models
+using metrics such as accuracy, precision, recall, and F1-score on test 
+data. Hyperparameter tuning is optionally applied to improve model 
+performance, and results before and after tuning are compared to select
+the best model.
