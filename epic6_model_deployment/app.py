@@ -5,8 +5,16 @@ import joblib
 # Load the saved pipeline
 model = joblib.load("epic6_model_deployment/epic5_model_pipeline.pkl")
 
-# Load CSVs
-insurance_df = pd.read_csv("insurance_data.csv")
+import os
+import pandas as pd
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+insurance_path = os.path.join(BASE_DIR, "insurance_data.csv")
+
+insurance_df = pd.read_csv(insurance_path)
+
+employee_df = pd.read_csv(os.path.join(BASE_DIR, "employee_data.csv"))
+vendor_df = pd.read_csv(os.path.join(BASE_DIR, "vendor_data.csv"))
 
 # Clean columns
 insurance_df.columns = insurance_df.columns.str.strip().str.upper()
@@ -51,3 +59,4 @@ if st.button("Predict"):
     except IndexError:
 
         st.error("Entered combination of Policy, Agent, and Vendor not found in dataset.")
+
