@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load the saved pipeline
-model = joblib.load("epic5_model_pipeline.pkl")
+model = joblib.load("./epic5_model_pipeline.pkl")
 
 # Load CSVs
 insurance_df = pd.read_csv("insurance_data.csv")
@@ -49,4 +49,5 @@ if st.button("Predict"):
         st.info(f"Fraud Probability: {fraud_proba:.2%}")
 
     except IndexError:
+
         st.error("Entered combination of Policy, Agent, and Vendor not found in dataset.")
