@@ -43,7 +43,7 @@ This project detects fraudulent insurance claims using machine learning models.
 
 5. **Feature Engineering**  
    - Select important features  
-   - Create new useful features if required  
+   - Create new useful 
 
 6. **Model Building**  
    - Train machine learning models (e.g., Logistic Regression, Decision Tree, Random Forest)  
@@ -58,11 +58,7 @@ This project detects fraudulent insurance claims using machine learning models.
 
 9. **Results & Conclusion**  
    - Select best performing model  
-   - Summarize insights and business impact  
-
-10. **Deployment / Future Scope (Optional)**  
-   - Discuss how the model can be used in real insurance systems  
-   - Mention future improvements  
+   - Summarize insights and business impact   
 
 ## 🛠️ Technologies Used
 - Python  
