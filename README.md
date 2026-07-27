@@ -67,11 +67,8 @@ This project detects fraudulent insurance claims using machine learning models.
 - Scikit-learn  
 - Matplotlib / Seaborn  
 
-## 👥 Team Members
-- Tanvi Tumram (Team Lead)  
-- Vaishnavi Kumbhakarn
-- Vaishnavi Lohakare  
-- Vishnupriya Rathi 
+## 👥 Team Member
+- Tanvi Tumram
 
 ## 🔗 Repository Link
 https://github.com/Tanvi7T/insurance-fraud-detection-ml
